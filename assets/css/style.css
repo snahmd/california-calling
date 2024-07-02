@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+  --third-color: #aaaaaa;
+  --fourth-color: #222222;
+  --fifth-color: #eeeeee;
+  --sixth-color: #ffffff30;
+}
+/* ! Global Style */
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 12px;
+  font-family: "Work Sans", sans-serif;
+}
+p {
+  font-size: 12px;
+  font-family: "Work Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  padding: 10px 25px;
+  border: 1px solid var(--primary-color);
+}
+/* ! NAV */
+nav {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14rem;
+}
+
+/* ! HEADER */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header div {
+  display: inline-block;
+  padding: 150px 1px;
+  background-color: var(--sixth-color);
+}
+h1 > span {
+  color: black;
+  text-shadow: -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white,
+    -1px -1px 0 white;
+}
+header p {
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+header h1 {
+  line-height: 0.8;
+}
+header h2 {
+  margin-top: 1.2rem;
+  font-weight: 200;
+}
+
+/* ! ASIDE */
+
+aside {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+aside a:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+/* ! MAIN */
+
+/* ! FOOTER */
